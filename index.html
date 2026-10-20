@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FarmFresh Poultry — Fresh Eggs & Healthy Birds</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Farm<span>Fresh</span> 🥚</div>
+    <div class="cart-icon" id="cart-btn">
+      🛒 <span id="cart-count">0</span>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Farm Fresh Poultry</h1>
+    <p>Premium eggs, healthy broilers, and quality feeds delivered straight to your door.</p>
+    <button class="cta-btn" onclick="scrollToSection('shop')">Order Now</button>
+  </section>
+
+  <section class="shop" id="shop">
+    <h2>Our Products</h2>
+    <div class="product-grid" id="product-grid">
+      <!-- Products will be injected here by JS -->
+    </div>
+  </section>
+
+  <section class="cart-section" id="cart">
+    <h2>Your Order</h2>
+    <ul id="cart-items">
+      <li class="empty-text">Your cart is empty.</li>
+    </ul>
+    
+    <div class="cart-total">
+      <strong>Total: ₦<span id="total-price">0</span></strong>
+    </div>
+    
+    <input type="text" id="delivery-address" placeholder="Enter your delivery address" required>
+
+    <button id="checkout-btn" class="whatsapp-btn">
+      Complete Order on WhatsApp 💬
+    </button>
+  </section>
+
+  <footer>
+    <p>📍 Km 10, Lagos-Ibadan Expressway, Nigeria</p>
+    <p>📞 +234 812 471 3885</p>
+    <p>© 2026 FarmFresh Poultry. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
