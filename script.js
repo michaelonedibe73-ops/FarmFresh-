@@ -4,7 +4,10 @@
 const products = [
   { id: 1, name: "Crate of Eggs", category: "eggs", price: 4500, image: "eggs.jpg", unit: "per crate (30 eggs)" },
   { id: 2, name: "Live Broiler", category: "chicken", price: 8500, image: "broiler.jpg", unit: "per bird (approx 2.5kg)" },
-  { id: 3, name: "Poultry Feed", category: "feeds", price: 15000, image: "feeds.jpg", unit: "per 25kg bag" }
+  { id: 3, name: "Poultry Feed", category: "feeds", price: 15000, image: "feeds.jpg", unit: "per 25kg bag" },
+  { id: 4, name: "Day-Old Chicks", category: "chicken", price: 1200, image: "chicks.jpg", unit: "per chick (min 50)" },
+  { id: 5, name: "Live Turkey", category: "chicken", price: 25000, image: "turkey.jpg", unit: "per bird (approx 6kg)" },
+  { id: 6, name: "Plastic Egg Trays", category: "supplies", price: 800, image: "trays.jpg", unit: "per tray" }
 ];
 
 let cart = [];
